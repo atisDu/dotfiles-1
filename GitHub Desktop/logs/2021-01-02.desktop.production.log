@@ -1,0 +1,7 @@
+2021-01-02T03:23:37.922Z - info: [ui] [AppStore] loading 1 repositories from store
+2021-01-02T03:23:37.922Z - info: [ui] [AppStore] found account: sujay1844 (Sujay R)
+2021-01-02T03:23:38.559Z - info: [ui] launching: 2.5.7-linux1 (Linux 5.10.2-2-MANJARO)
+2021-01-02T03:23:38.559Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2021-01-02T03:23:38.592Z - info: [ui] [BranchPruner] No branches to prune.
+2021-01-02T03:23:39.415Z - info: [ui] Stats reported.
+2021-01-02T03:23:59.112Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.368s)

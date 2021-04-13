@@ -1,0 +1,7 @@
+rofi.theme: /usr/share/rofi/themes/Arc-Dark.rasi
+configuration {
+	combi-modi: "window,drun,ssh,combi";
+	font: "Roboto-mono 14";
+	show-icons;
+	icon-theme: "Tela-dark";
+}

@@ -1,0 +1,30 @@
+00:00:00.526434 VirtualBox GUI VM Selector Window 6.1.16 r140961 linux.amd64 (Dec 15 2020 22:16:14) release log
+00:00:00.526436 Log opened 2021-01-19T13:37:05.151054000Z
+00:00:00.526436 Build Type: release
+00:00:00.526438 OS Product: Linux
+00:00:00.526439 OS Release: 5.10.7-3-MANJARO
+00:00:00.526440 OS Version: #1 SMP PREEMPT Fri Jan 15 21:11:34 UTC 2021
+00:00:00.526462 DMI Product Name: Swift SF314-42
+00:00:00.526468 DMI Product Version: V1.08
+00:00:00.526471 Firmware type: UEFI
+00:00:00.526667 Secure Boot: Disabled
+00:00:00.526759 Host RAM: 7385MB (7.2GB) total, 4110MB (4.0GB) available
+00:00:00.526764 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.526765 Process ID: 4061
+00:00:00.526765 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.526826 Qt version: 5.15.2
+00:00:00.546906 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.184374 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x28 x 1920x1052
+00:00:01.199237 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:15.888899 GUI: UIMediumEnumerator: Medium with key={{cbb10128-eb2b-4b5f-8520-8021ffa68df7}} created
+00:01:15.993801 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:01.877476 GUI: UIMediumEnumerator: Medium with key={{3698e1e9-b3a2-447e-8ee7-7f8d8179cb5b}} created
+00:02:01.891289 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:12.123612 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:12.204387 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:16.815152 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:41.811015 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:42.486985 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:52.275561 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:52.820976 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:52.834155 GUI: UIMediumEnumerator: Medium-enumeration finished!

@@ -1,0 +1,24 @@
+[general]
+File1[$e]=$HOME/Dropbox
+File2[$e]=$HOME
+File3[$e]=/
+Name1[$e]=Dropbox
+Name2[$e]=sujay1844
+Name3[$e]=
+comboHistory[$e]=/
+
+[window]
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAJl/////wAAAAAAAAAAAAAAFgB2AGkAZQB3AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+XWAYLAND0 Window-Maximized 1920x1080=true
+XWAYLAND0 XPosition=0
+XWAYLAND0 XPosition 1920x1080=0
+XWAYLAND0 YPosition=56
+XWAYLAND0 YPosition 1920x1080=68
+eDP Height 1080=1024
+eDP Width 1920=1920
+eDP Window-Maximized 1080x1920=true
+eDP Window-Maximized 1920x1080=true
+eDP XPosition=0
+eDP YPosition=56
+eDP-1 Window-Maximized 1920x1080=true

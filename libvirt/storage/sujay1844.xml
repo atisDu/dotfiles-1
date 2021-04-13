@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit sujay1844
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>sujay1844</name>
+  <uuid>b7c68d96-2d7b-4631-8955-c2e985d89c5c</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/sujay1844</path>
+  </target>
+</pool>
