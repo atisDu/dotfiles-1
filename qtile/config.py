@@ -77,7 +77,7 @@ keys = [
         lazy.layout.toggle_split(),
             desc="Toggle between split and unsplit sides of stack"),
     Key([mod], "Return",
-        lazy.spawn("alacritty"),
+        lazy.spawn("kitty"),
             desc="Launch terminal"),
 
     # Toggle between different layouts as defined below
@@ -111,7 +111,7 @@ keys = [
         lazy.spawn("gnome-calculator"),
             desc="Launch gnome-calculator"),
     Key([mod], "t",
-	lazy.spawn("alacritty"),
+	lazy.spawn("kitty"),
 	    desc="Launch terminal"),
 ]
 

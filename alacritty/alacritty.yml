@@ -220,25 +220,25 @@ font:
   #  text: CellBackground
   #  background: CellForeground
   # Normal colors
-  #normal:
-  #  black:   '#1d1f21'
-  #  red:     '#cc6666'
-  #  green:   '#b5bd68'
-  #  yellow:  '#f0c674'
-  #  blue:    '#81a2be'
-  #  magenta: '#b294bb'
-  #  cyan:    '#8abeb7'
-  #  white:   '#c5c8c6'
+  normal:
+    black:   '#000000'
+    red:     '#cc0000'
+    green:   '#4e9a06'
+    yellow:  '#c4a000'
+    blue:    '#3465a4'
+    magenta: '#75507b'
+    cyan:    '#a07eff'
+    white:   '#555753'
   # Bright colors
-  #bright:
-  #  black:   '#666666'
-  #  red:     '#d54e53'
-  #  green:   '#b9ca4a'
-  #  yellow:  '#e7c547'
-  #  blue:    '#7aa6da'
-  #  magenta: '#c397d8'
-  #  cyan:    '#70c0b1'
-  #  white:   '#eaeaea'
+  bright:
+    black:   '#767676'
+    red:     '#ef2929'
+    green:   '#8ae234'
+    yellow:  '#fce94f'
+    blue:    '#7aa6da'
+    magenta: '#ad7fa8'
+    cyan:    '#bfa9ff'
+    white:   '#eeeeec'
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
@@ -751,29 +751,3 @@ mouse:
   #log_level: Warn
   # Print all received window events.
   #print_events: false
-colors:
-  primary:
-    background: '#212121'
-    foreground: '#BABABA'
-
-  # Normal colors
-  normal:
-    black: '#000000'
-    red: '#E8341C'
-    green: '#68C256'
-    yellow: '#F2D42C'
-    blue: '#1C98E8'
-    magenta: '#8E69C9'
-    cyan: '#1C98E8'
-    white: '#BABABA'
-
-  # Bright colors
-  bright:
-    black: '#666666'
-    red: '#E05A4F'
-    green: '#77B869'
-    yellow: '#EFD64B'
-    blue: '#387CD3'
-    magenta: '#957BBE'
-    cyan: '#3D97E2'
-    white: '#BABABA'
