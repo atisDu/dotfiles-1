@@ -1,3 +1,4 @@
+set PATH /usr/bin /home/sujay1844/.local/bin /usr/local/bin /usr/lib/jvm/default/bin /bin ~/.config/scripts
 function e
 	exit $argv
 end
