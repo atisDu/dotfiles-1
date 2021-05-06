@@ -1,0 +1,3 @@
+hi this is foolish i know
+this is for testing my bash script for syncing dotfiles
+this is the file in ~/.config

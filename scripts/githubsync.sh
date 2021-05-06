@@ -22,6 +22,6 @@ done
 echo "Sync complete..."
 echo "Committing changes..."
 git commit -m "Update as of $(date +%d/%m/%y-%T)"
-echo "Pushing to remote Github repository..."
+echo "Pushing to remote Github repository (if any)..."
 git push
 echo "Success"
