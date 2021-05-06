@@ -3,7 +3,7 @@
 echo "Changing directory to ~/Github/dotfiles..."
 cd ~/Github/dotfiles/
 
-# Here we are parse the names of the folders in the current directory into an array: list[]
+# Here we are parsing the names of the folders in the current directory into an array: list[]
 i=0
 while read line
 do
