@@ -252,8 +252,8 @@ for_window [app_id="qbittorrent"] floating enable
 #for_window [app_id=""] floating enable
 
 # Autostart apps
-exec waybar
-exec telegram-desktop -startintray
 exec blueman-applet
+exec telegram-desktop -startintray
 exec emacs --daemon --no-x-resources
 exec dropbox
+exec waybar
