@@ -5,7 +5,7 @@ cd ~/Github/dotfiles/
 i=0
 while read line
 do
-    list[ $i ]="$line"        
+    list[$i]="$line"        
     (( i++ ))
 done < <(ls ~/Github/dotfiles)
 #list=("awesome" "kitty" "polybar.old" "ranger" "sway" "waybar" "README.md"  "awesome-back" "leftwm" "qtile" "rofi" "terminator" "alacritty" "fish" "polybar" "qtile-back" "scripts" "termite" "hi")
