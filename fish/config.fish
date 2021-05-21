@@ -1,3 +1,4 @@
+set PATH /usr/bin /home/sujay1844/.local/bin /usr/local/bin /usr/lib/jvm/default/bin /bin ~/.config/scripts
 function e
 	exit $argv
 end
@@ -16,3 +17,11 @@ end
 function yay
 	paru $argv
 end
+function e
+    exit $argv
+end
+function q
+	exit $argv
+end
+kitty + complete setup fish | source
+

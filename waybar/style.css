@@ -67,6 +67,11 @@ tooltip {
     border-bottom: 3px solid #ff6e67;
 }
 
+#custom-shutdown {
+    border-bottom: 3px solid #eb3e86;
+    font-size: 18px;
+}
+
 #custom-pacman {
     border-bottom: 3px solid #ffb52a;
 }

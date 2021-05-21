@@ -1,2 +1,1 @@
-# dotfiles
-All my config files in one place
+A backup of all my dotfiles

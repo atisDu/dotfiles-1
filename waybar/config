@@ -5,7 +5,7 @@
     //"width": 1350, // Waybar width
     // Choose the order of the modules idle_inhibitor
     "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
-    "modules-right": ["custom/pacman", "backlight","cpu", "memory", "battery", "network", "pulseaudio","tray", "clock"], 
+    "modules-right": [ "backlight","cpu", "memory", "battery", "network", "pulseaudio","tray", "clock", "custom/shutdown"], 
     
  // Modules configuration
     "sway/workspaces": {
@@ -51,11 +51,11 @@
     },
     "cpu": {
         "format": "﬙ {usage}%",
-        "on-click": "alacritty -e htop"
+        "on-click": "kitty -e htop"
     },
     "memory": {
         "format": " {}%",
-        "on-click": "alacritty -e htop"
+        "on-click": "kitty -e htop"
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -68,7 +68,9 @@
         // "device": "amdgpu_bl0",
         "format": "{icon} {percent}%",
         "format-icons": [""],
-	"on-click": "brightnessctl s 128"
+	"on-click": "brightnessctl s 50%",
+	"on-scroll-up": "brightnessctl s 5%+",
+	"on-scroll-down": "brightnessctl s 5%-"
     },
     "battery": {
         "states": {
@@ -104,26 +106,16 @@
         "on-click": "pavucontrol"
     },
 
-    "custom/disk": {
-        "format": " {}",
-        "max-length": 80,
-        "escape": false,
-        "exec": "$HOME/.local/bin/disk-stats.sh",
-        "interval": 60,
-        "on-click": "dolphin",
-        "tooltip": false
-    },
-
-    "sway/language": {
-        "format": " {}",
-        "max-length": 50
-    },
     "custom/pacman": {
         "format": " {}",
         "interval": 7200,                     // every two hours
         "exec": "checkupdates | wc -l",       // # of updates
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "alacritty -e sudo pacman -Syu ; pkill -SIGRTMIN+8 waybar", // update system
+        "on-click": "kitty -e sudo pacman -Syu", // update system
         "signal": 8
+    },
+    "custom/shutdown": {
+	"format": " ⏻ ",
+	"on-click": "wlogout -p layer-shell",
     }
 }
